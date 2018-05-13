@@ -1,0 +1,24 @@
+{
+  "name": "nodeEditor",
+  "version": "1.0.0",
+  "main": "main2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realTrueProger/nodeEditor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realTrueProger/nodeEditor/issues"
+  },
+  "homepage": "https://github.com/realTrueProger/nodeEditor#readme",
+  "devDependencies": {},
+  "description": "",
+  "dependencies": {
+    "d3-node-editor": "^0.7.3"
+  }
+}

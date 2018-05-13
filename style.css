@@ -170,7 +170,7 @@ html, body {
     stroke: #aaa;
 }
 .node-editor select, .node-editor input {
-    width: 60px;
+    /* width: 60px; */
     background-color: transparent;
     padding: 2px 6px;
     border: 1px solid white;
@@ -273,3 +273,14 @@ div.node.move-right{
     top: 15px;
 }
 
+.node-editor .node content {
+    display: table;
+    width: 100%;
+  }
+  .node-editor .node content column {
+    display: table-cell;
+    white-space: nowrap;
+  }
+  .node-editor .node content column:not(:last-child) {
+    padding-right: 20px;
+  }
